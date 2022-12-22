@@ -7,3 +7,4 @@ imblearn
 xgboost
 dill
 flask
+gunicorn
