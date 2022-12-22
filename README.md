@@ -18,7 +18,7 @@ Dataset download link: https://www.kaggle.com/datasets/fedesoriano/stroke-predic
 
 ## 💻 Web UI
 
-<a><img src='templates/Home.png' width="60%" height="45%"></a>
+<a><img src='templates/Home.png' width="70%" height="55%"></a>
 
 ## 🖥️ Installation
 
