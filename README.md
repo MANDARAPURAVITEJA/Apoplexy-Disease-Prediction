@@ -81,8 +81,9 @@ git push origin main
         4. Feature Selection
         5. Sampling
         6. Model Training
-        7. Best model using(AUC-ROC) curve
+        7. Best model using(AUC-ROC) curve<br>
 <br>
+
 2. Apoplexy Disease Prediction Model.ipynb
 
     In this Notebook, I have implemented all the steps performed in EDA & FeatureEngineering.ipynb notebook but using Pipeline. Which helps to build a model and used the Trained model for predicting the output.
