@@ -28,7 +28,7 @@ def predict_api(): #for predicting single output from model
     output=model.predict(new_data)[0]
     return jsonify(output)
 
-@app.route('/predict',methods=['POST'])
+@app.route('/predict',methods=['POST','GET'])
 def predict():
     #data = [float(x) for x in request.form.values()]
     #final_features = [np.array(data)]
@@ -55,7 +55,8 @@ def predict():
         else:
             output1="Yes"
 
-        return render_template('home.html', prediction_text=output1)
+        return render_template('Home.html', prediction_text=output1)
+    return render_template('Home.html')
 
 
 def preprocessing(gender,Age_bin,hypertension,heart_disease,ever_married,work_type,Residence_type,avg_glucose_level,bmi,smoking_status):

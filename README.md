@@ -5,7 +5,7 @@ This is an End-to-End Machine Learning project. The project aims at developing a
 
 The project was created using Python Flask framework and integrated with Web API. Deployed the application in Railway app.
 
-Link for the application: 
+Link for the application: apoplexy-disease-prediction-production.up.railway.app
 
 ## 📈 DataSource
 
